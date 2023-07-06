@@ -1,0 +1,20 @@
+.b{
+    height: 40px !important;
+    width: 80px !important;
+    background-color:none !important;
+    background: #344d7f !important;
+}
+.form-popup{
+
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  
+  padding: 20px;
+}
+.btnAdd{
+  background-color:none !important;
+  background: #344d7f !important;
+}

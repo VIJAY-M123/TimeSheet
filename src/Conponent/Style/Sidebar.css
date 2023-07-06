@@ -1,0 +1,43 @@
+.containers{
+    display:flex;
+  }
+  .sidebar{
+    background:#15192b;
+    color:"";
+    height: 100vh;
+    width: 250px;
+    
+    overflow-x: hidden;
+    position: fixed;
+  }
+  .top{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+  }
+  main{
+    height: 100vh;
+    width: 100%;
+    background-color: #c9c9bf;
+    margin-left: 250px;
+  }
+  .footer{
+    display: flex;
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+   right: 5px;
+   
+  
+   
+  }
+  .btnfooter{
+    width: 50px !important;
+    background-color: #c15c2d  !important;
+   background-image: none !important;
+  }
+  .Toastify__toast-container--top-right{
+    margin-top: 200px !important;
+  }

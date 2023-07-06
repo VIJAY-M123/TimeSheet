@@ -1,0 +1,22 @@
+.topnav{
+    background-color:#15192b;
+    height: 70px;
+    position:sticky;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    z-index: 99;
+    
+
+}
+.profile{
+    background-color: rgb(240, 245, 245) !important;
+    height: 40px !important;
+    width: 50px !important;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px !important;
+  
+}
